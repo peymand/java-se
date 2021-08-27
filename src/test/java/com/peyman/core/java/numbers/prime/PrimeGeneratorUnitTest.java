@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.baeldung.prime.PrimeGenerator.*;
+import static com.peyman.core.java.numbers.prime.PrimeGenerator.*;
 import static org.junit.Assert.*;
 
 public class PrimeGeneratorUnitTest {

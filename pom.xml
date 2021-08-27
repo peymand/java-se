@@ -18,6 +18,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <decimal4j.version>1.0.3</decimal4j.version>
     <assertj.version>3.6.1</assertj.version>
+    <icu4j.version>61.1</icu4j.version>
   </properties>
 
   <dependencies>
@@ -79,6 +80,41 @@
       <artifactId>decimal4j</artifactId>
       <version>${decimal4j.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.ibm.icu</groupId>
+      <artifactId>icu4j</artifactId>
+      <version>${icu4j.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>it.unimi.dsi</groupId>
+      <artifactId>dsiutils</artifactId>
+      <version>2.0.6</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>21.0</version>
+
+    </dependency>
+      <dependency>
+          <groupId>io.vavr</groupId>
+          <artifactId>vavr</artifactId>
+          <version>0.10.4</version>
+      </dependency>
+
+
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.11</version>
+    </dependency>
+
+
   </dependencies>
 
   <build>

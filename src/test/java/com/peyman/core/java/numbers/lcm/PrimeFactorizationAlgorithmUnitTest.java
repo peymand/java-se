@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.baeldung.lcm.PrimeFactorizationAlgorithm.*;
+import static com.peyman.core.java.numbers.lcm.PrimeFactorizationAlgorithm.getPrimeFactors;
 
 
 public class PrimeFactorizationAlgorithmUnitTest {
