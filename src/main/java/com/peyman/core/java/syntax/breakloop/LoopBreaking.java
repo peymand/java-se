@@ -2,6 +2,13 @@ package com.peyman.core.java.syntax.breakloop;
 
 public class LoopBreaking {
 
+
+    public static void main(String[] args) {
+        LoopBreaking loopBreaking = new LoopBreaking();
+        String x = loopBreaking.simpleBreak();
+        System.out.println(x);
+    }
+
     public String simpleBreak() {
         String result = "";
         for (int outerCounter = 0; outerCounter < 2; outerCounter++) {
